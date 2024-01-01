@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>History of NJ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <header id="top-header">
+        <img src="images/seal.png"/>
+        <p>The State of New Jersey</p>
+    </header>
+    <nav id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <p class="domain">NJ.us</p>
+        <a href="/index.html" class="item">Home</a>
+        <a href="https://www.state.nj.us/transportation/refdata/gis/map.shtm" class="item" target="_blank">Maps</a>
+        <a href="/history.html" class="item">History</a>
+        <a href="/cities.html" class="item">Cities</a>
+        <a href="/arts-culture.html" class="item">Arts & Culture</a>
+        <a href="/contact.html" class="item">Contact</a>
+    </nav>
+    <div id="breadcrumb-container"><a href="/index.html">Home</a> / History </div>
+    <aside class="social-sidebar">
+        <h2>Follow Us</h2>
+        <ul>
+            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </aside>
+    <br/>
+    <main>
+        <section>
+            <article class="article">
+                <h3>History of New Jersey</h3>
+                <div class="article-container">
+<h4>Early Beginnings and Colonial Era</h4>
+<img src="/images/colonialnj.jpg" alt="Painting of colonial era explorers arriving to winter shores of New Jersey" class="history-img">
+New Jersey's history dates back to the early days of European exploration and colonization. The region was inhabited by various Native American tribes for centuries before the arrival of Dutch and Swedish explorers in the early 1600s. In 1664, the English captured control of the area, leading to the establishment of two distinct colonies: East Jersey and West Jersey. These colonies attracted a diverse population of settlers, including Quakers, Dutch, Swedes, and others seeking religious freedom and economic opportunities. Eventually, the two colonies were combined into a single royal colony in 1702, becoming a key agricultural and trading hub in the growing American colonies.
+
+<h4>Revolutionary Struggles and Statehood</h4>
+<img src="/images/revolutionwar.png" alt="Painting of colonial era soldiers around George Washington on a horse with the American flag in the background hanging high on a pole" class="history-img">
+New Jersey played a pivotal role in the American Revolutionary War. The state's strategic location between the rebel stronghold of Philadelphia and the British-held New York City made it a battleground. The crucial battles of Trenton and Princeton demonstrated the determination of George Washington's forces and bolstered the morale of the Continental Army. In 1787, New Jersey became the third state to ratify the United States Constitution, earning it the nickname "The Crossroads of the American Revolution." The state's central location and active participation in shaping the new nation's governance solidified its place in American history.
+
+<h4>Industrialization, Innovation, and Modernity</h4>
+<img src="/images/industrialnj.jpg" alt="Painting of a yellow industrial-era building with a tall smokestack with smoke coming out of it and people in the grounds in front of the building." class="history-img">
+During the 19th and early 20th centuries, New Jersey experienced a significant wave of industrialization that propelled it into a prominent role in the nation's economy. The state's advantageous geographic location, with access to major ports and transportation networks, contributed to its rapid growth. Industries like manufacturing, transportation, and chemical production thrived, giving rise to innovations that shaped the modern world. The state's contributions to the chemical industry were particularly noteworthy, with companies like DuPont and Merck conducting groundbreaking research and producing a wide range of products such as Nylon and Teflon. The development of these new materials, chemicals, and pharmaceuticals laid the foundation for future advancements and paved the way for New Jersey's continued growth.
+                </div>
+            </article>
+        </section>
+    </main>
+    <br/><br/><br/>
+    <footer>
+        <ul>
+           <li><a href="/index.html">Home</a></li>
+           <li><a href="https://www.state.nj.us/transportation/refdata/gis/map.shtm" target="_blank">Maps</a></li>
+           <li><a href="/history.html">History</a></li>
+           <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </footer>
+</body> 
+</html>
