@@ -212,7 +212,7 @@ article.infobox {
 
 .info-links h1 {
     text-align:center;
-    color:#001f4e;
+    color:blue;
 }
 .info-links ul {
     list-style-type: none; 
@@ -235,7 +235,7 @@ article.infobox {
     border: 6px solid #687280;
 }
 .info-links a {
-    color:#001f4e;
+    color:blue;
     font-weight:bold;
     text-decoration: none;
 }
@@ -361,7 +361,7 @@ article.infobox {
 }
 @media only screen and (min-width: 1200px) {
     #state-info {
-        background:#001f4e;
+        background:blue;
         padding:0px;
         overflow:hidden;
     }
@@ -423,7 +423,7 @@ article.infobox {
 
 #popular-cities {
     margin-top:-5px;
-    background:#001f4e;
+    background:blue;
     color:#fff;
     height:590px;
     padding:1px;
@@ -482,7 +482,7 @@ article.infobox {
 
 footer {
     margin-top:-23px;
-    background:#001f4e;
+    background:blue;
     color:#fff;
     height:165px;
     text-align:center;
@@ -494,7 +494,7 @@ footer ul {
 @media only screen and (min-width: 600px) {
     footer {
         margin-top:-37px;
-        background:#001f4e;
+        background:blue;
         color:#fff;
         height:75px;
         text-align:center;
@@ -547,7 +547,7 @@ footer a:hover {
 }
 
 .article-container {
-    background-color:#001f4e;
+    background-color:blue;
     color: #fff;
     padding:5px 15px 15px 15px;
     width:240px;
@@ -619,7 +619,7 @@ header#title {
 }
 
 section#form {
-    background:#001f4e;
+    background:blue;
     padding:5px;
     color:white;
     max-width:300px;
