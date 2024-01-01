@@ -97,7 +97,7 @@ nav .icon {
       display: block;
       border:1px solid rgba(131, 131, 131, 0.43);
       border-width: 2px;
-      border-radius:5%;
+      
     }
     
     nav.responsive {position: relative;}
@@ -125,7 +125,6 @@ nav .icon {
 #breadcrumb-container {
     background-color:#e1e1e1;
     width:230px;
-    border-radius:15px;
     padding: 5px;
     margin:0 auto;
     margin-top:30px;
@@ -230,7 +229,6 @@ article.infobox {
     display:block;
     margin:0 auto;
     border: 6px solid #00173a;
-    border-radius:30%;
     margin-bottom:15px;
 }
 .info-links img:hover {
@@ -283,7 +281,6 @@ article.infobox {
     margin-top:20px;
 }
 .city-button img {
-    border-radius:20%;
     width:105px;
     height:80px;
     padding:5px;
@@ -371,7 +368,6 @@ article.infobox {
     #state-description {
         background:#00173a;
         padding:10px;
-        border-radius:25px;
         margin-top:15px;
         margin-bottom:15px;
         overflow:hidden;
@@ -382,7 +378,6 @@ article.infobox {
         float:left;
     }
     #state-img img {
-        border-radius:12px;
         width:400px;
         height:auto;
         margin-right:10px;
@@ -557,7 +552,6 @@ footer a:hover {
     padding:5px 15px 15px 15px;
     width:240px;
     margin:0 auto;
-    border-radius:7px;
     font-size:13px;
 }
 @media only screen and (min-width: 430px) {
@@ -630,7 +624,6 @@ section#form {
     color:white;
     max-width:300px;
     margin:0 auto;
-    border-radius:15px;
     text-align:center;
 }
 @media (min-width:600px) {
@@ -668,7 +661,6 @@ section#form li {
 input {
     margin:0 auto;
     display:block;
-    border-radius:5px;
     min-height:25px;
 }
 @media (min-width:768px) {
@@ -701,7 +693,6 @@ section#education {
     max-width:650px;
     padding:15px;
     background:#edeaea;
-    border-radius:15px;
     color:rgb(0, 0, 0);
 }
 
@@ -710,7 +701,6 @@ section#blue-ribbon {
     max-width:650px;
     padding:15px;
     background:#e1e7f0;
-    border-radius:15px;
     color:rgb(0, 0, 0);
 }
 
@@ -719,7 +709,6 @@ section#statistics {
     max-width:650px;
     padding:15px;
     background:#e1f0e7;
-    border-radius:15px;
     color:rgb(0, 0, 0);
 }
 
@@ -767,7 +756,6 @@ section#intro,#museums,#performing-arts {
     max-width:620px;
     padding:2px 15px 5px 15px;
     background:#0d0d0d;
-    border-radius:15px;
     color:rgb(235, 255, 216);
     margin-top:15px;
 }
@@ -799,7 +787,6 @@ section#overview,#income,#location {
     max-width:660px;
     padding:2px 15px 5px 15px;
     background:#00173a;
-    border-radius:15px;
     color:rgb(255, 255, 255);
     margin-top:15px;
 }
@@ -816,7 +803,6 @@ article.city h2 {
 
 img.city-img {
     box-shadow: 0px 5px 10px 0px rgba(108, 108, 108, 0.5);
-    border-radius:5px;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -840,7 +826,6 @@ aside.social-sidebar {
     margin:auto;
     background-color: #f2f2f2;
     padding: 10px;
-    border-radius: 10px;
     text-align: center;
 
 }
@@ -871,7 +856,6 @@ aside.social-sidebar a {
     height: 40px;
     line-height: 42px;
     text-align: center;
-    border-radius: 50%;
     background-color: #0a3666;
     color: #fff;
     font-size: 18px;
@@ -915,7 +899,6 @@ aside.social-sidebar a:hover {
 .cities-container {
     margin:0 auto;
     border:1px solid rgb(101, 101, 101);
-    border-radius:5px;
     background:#d7d7d9;
     max-width:450px;
     padding:10px;
