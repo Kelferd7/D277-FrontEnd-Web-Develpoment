@@ -8,16 +8,16 @@ function myFunction() {
   }
 
 
-  // Wait for the DOM to be fully loaded
+ 
 document.addEventListener("DOMContentLoaded", function () {
-  // Get references to the email input fields and the text element
+
   const emailField = document.getElementById("mail");
   const confirmEmailField = document.getElementById("confirm-mail");
   const emailMatchText = document.createElement("p");
-  emailMatchText.style.marginTop = "5px"; // Optional: Add some spacing
+  emailMatchText.style.marginTop = "5px"; 
   confirmEmailField.parentNode.appendChild(emailMatchText);
 
-  // Add input event listener to the confirm email field
+ 
   confirmEmailField.addEventListener("input", function () {
       if (confirmEmailField.value === emailField.value) {
           emailMatchText.textContent = "Emails match";
