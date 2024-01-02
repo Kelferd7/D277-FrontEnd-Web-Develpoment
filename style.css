@@ -36,9 +36,9 @@ aside.social-sidebar {
 }
 @media screen and (max-width: 860px) {
     aside.social-sidebar {
-        width: 100%; /* Occupy full width on smaller screens */
-        float: none; /* Remove float */
-        margin-left: 0; /* Remove margin */
+        width: 100%;
+        float: none; 
+        margin-left: 0;
         margin-bottom:15px;
     }
 }
@@ -530,9 +530,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/*-------------------------------
-    START OF "HISTORY" PAGE CSS 
-  -------------------------------*/
 
 .article {
     margin:0 auto;
@@ -607,13 +604,7 @@ footer a:hover {
     }
 }
 
-/*-------------------------------
-    END OF "HISTORY" PAGE CSS 
-  -------------------------------*/
 
-/*-------------------------------
-    START OF "CONTACT" PAGE CSS 
-  -------------------------------*/
 header#title {
     background:none;
 }
@@ -680,13 +671,6 @@ label {
     padding-bottom:5px;
 }
 
-/*-------------------------------
-    END OF "CONTACT" PAGE CSS 
-  -------------------------------*/
-
-/*-------------------------------
-    START OF "EDUCATION" PAGE CSS 
-  -------------------------------*/
 
 section#education {
     margin:0 auto;
@@ -712,14 +696,6 @@ section#statistics {
     color:rgb(0, 0, 0);
 }
 
-/*-------------------------------
-    END OF "EDUCATION" PAGE CSS 
--------------------------------*/
-
-
-/*-------------------------------
-    START OF "TRANSPORT" PAGE CSS 
--------------------------------*/
 
 aside#left,#right {
     position:absolute;
@@ -743,13 +719,7 @@ aside#left,#right {
     left:290%;
 }
 
-/*-------------------------------
-    END OF "TRANSPORT" PAGE CSS 
--------------------------------*/
 
-/*-------------------------------
-    START OF "ARTS" PAGE CSS 
-  -------------------------------*/
 section#intro,#museums,#performing-arts {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     margin:0 auto;
@@ -767,15 +737,6 @@ img#center {
     max-width:95%;
 }
 
-/*-------------------------------
-    END OF "ARTS" PAGE CSS 
--------------------------------*/
-
-
-
-/*-------------------------------
-    START OF "CITY" PAGE CSS 
--------------------------------*/
 
 body#city {
     background:#082858
@@ -814,13 +775,11 @@ span.highlighter {
 }
 
 
-/*-------------------------------
-    END OF "CITY" PAGE CSS 
--------------------------------*/
 
 
 
-/* Social Media Icons */
+
+
 aside.social-sidebar {
     width:200px;
     margin:auto;
@@ -879,7 +838,7 @@ aside.social-sidebar a:hover {
 
 
 
-/* Bottom Footer Image */
+
 .footer-img {
     color:#ffffff;
     position: relative;
@@ -887,7 +846,7 @@ aside.social-sidebar a:hover {
     font-size:5vw;
 }
 
-/* Centered text */
+
 .img-text-centered {
     position: absolute;
     top: 50%;
@@ -895,7 +854,7 @@ aside.social-sidebar a:hover {
     transform: translate(-50%, -50%);
   }
 
-/* Cities Container */
+
 .cities-container {
     margin:0 auto;
     border:1px solid rgb(101, 101, 101);
